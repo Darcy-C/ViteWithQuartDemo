@@ -1,14 +1,24 @@
 ##  Vite+Quart Demo
 
-This repository demonstrates how to integrate `Vite` with a classic, template-engine–based backend framework similar to `Flask`. The demo uses `Quart` (an async-first framework) so implementing a real WebSocket handler later is straightforward.
-
-In this demo, we would like to use `Quart`, an async first framework, so we can easily implement real websocket handler in the future.
+This repository demonstrates how to integrate `Vite` with a classic, template-engine–based backend framework similar to `Flask`. The demo uses `Quart` so implementing a real WebSocket handler in the future is straightforward.
 
 **QUICK NOTE**: `Quart` is just an async version of `Flask`, they almost share the same apis.
 
-### WHY VITE
+### WHY?
 
 Historically, we managed JS imports manually, now with `vite`, we can use it as a html page auto reload tool, a scss compiler hot-reload tool, a js bundler, and many features which vite would like to provide, e.g. JS syntax trans-compiler, many things we can specify in `vite.config.js` in the future if we would like to do.
+
+By using Vite and Quart together, we embrace flexibility on both sides, making the old Python server more modern.
+
+### PREREQUISITE
+
+1. modern JavaScript
+2. HTML + CSS and Any CSS Compiler e.g. SASS(SCSS)
+3. Backend Web Framework, e.g. flask or quart
+3. Vite
+
+In this repo, we use vanilla JS, no MVVM frameworks involved yet, which is another story and it's covered in this topic.
+
 
 ### REPO OVERVIEW
 
@@ -35,7 +45,7 @@ Historically, we managed JS imports manually, now with `vite`, we can use it as 
 ```
 pythonXXX -m pip install -r requirements.txt
 ```
-where pythonXXX is your python executable installed on your system,
+where pythonXXX is your Python executable installed on your system,
 if you are sure that you will call the correct pip, you can do
 ```
 pip install -r requirements.txt
