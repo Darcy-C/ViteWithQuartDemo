@@ -17,7 +17,7 @@ By using Vite and Quart together, we embrace flexibility on both sides, making t
 3. Backend Web Framework, e.g. flask or quart
 3. Vite
 
-In this repo, we use vanilla JS, no MVVM frameworks involved yet, which is another story and it's covered in this topic.
+In this repo, we use vanilla JS, no MVVM frameworks involved yet, which is another story and it's NOT covered in this topic, stay tuned.
 
 
 ### REPO OVERVIEW
