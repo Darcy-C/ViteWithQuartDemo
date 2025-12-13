@@ -1,0 +1,13 @@
+@use "other";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  .textContent {
+    color: red;
+  }
+}
