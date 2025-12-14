@@ -104,7 +104,14 @@ npm run build
 
 The build output will be placed in `./app/static/bundle/`. Make sure this folder is available in your deployment environment.
 
-### RELATED PROJECT
+### SEE ALSO
 
-This demo project is highly inspired by 
+- This demo project is highly inspired by 
 `tylerlwsmith/vite-with-flask-backend` with slight improvements, thank you.
+
+
+- [https://vite.dev/guide/backend-integration](https://vite.dev/guide/backend-integration) - vite official guide for backend integration, where it also provide a link to `awesome vite`, where is has general solution for flask backend, see below.
+
+- `flask-vite` - go check this one also.
+
+END.
